@@ -1,0 +1,1538 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth bg-[#08020f] text-[#f5f3f9]">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shreehari Chougule | Creative Head & Video Creator</title>
+  
+  <!-- SEO & Open Graph Meta -->
+  <meta name="description" content="Official portfolio of Shreehari Chougule — Creative Head & Visual Storyteller with over 4 years of experience. Specializing in Creative Direction, Social Media Creatives & Campaigns, Brand Identity, Print & Packaging, and Cinematic Video Editing." />
+  <meta name="keywords" content="Shreehari Chougule, Shrihari Chougule, Creative Head, Graphic Designer, Video Editor, Social Media Creatives, Brand Identity, Packaging Design, Brochure Design, MIT World Peace University, Digitally Bugged" />
+  <meta property="og:title" content="Shreehari Chougule | Creative Head & Video Creator" />
+  <meta property="og:description" content="Turning Raw Footage Into Stories That Move. Creative Direction, Brand Identity & Cinematic Video Portfolio." />
+  <meta property="og:image" content="assets/projects/shreehari_portrait.jpg" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#08020f" />
+
+  <!-- Professional Google Fonts: Plus Jakarta Sans, Inter, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              gold: '#F59E0B',
+              goldLight: '#FDE68A',
+              crimson: '#E11D48',
+              purple: '#A855F7',
+              violet: '#8B5CF6',
+              deepPurple: '#18072B',
+              midnight: '#08020F',
+              card: '#11051D',
+              border: 'rgba(168, 85, 247, 0.16)',
+            }
+          },
+          fontFamily: {
+            heading: ['"Plus Jakarta Sans"', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+            sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          },
+          animation: {
+            'marquee': 'marquee 35s linear infinite',
+            'marquee-reverse': 'marquee-reverse 35s linear infinite',
+          },
+          keyframes: {
+            marquee: {
+              '0%': { transform: 'translateX(0%)' },
+              '100%': { transform: 'translateX(-50%)' },
+            },
+            'marquee-reverse': {
+              '0%': { transform: 'translateX(-50%)' },
+              '100%': { transform: 'translateX(0%)' },
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    /* Global Velvet Purple-Black Background */
+    body {
+      background-color: #08020f;
+      background-image: 
+        radial-gradient(ellipse 90% 60% at 50% -10%, rgba(99, 1, 173, 0.22), transparent 75%),
+        radial-gradient(ellipse 70% 50% at 90% 25%, rgba(147, 51, 234, 0.12), transparent 60%),
+        radial-gradient(ellipse 75% 55% at 10% 55%, rgba(88, 28, 135, 0.14), transparent 65%),
+        radial-gradient(ellipse 80% 50% at 50% 100%, rgba(126, 34, 206, 0.16), transparent 70%);
+      background-attachment: fixed;
+    }
+
+    /* Seamless Grain Texture Overlay */
+    .grain-overlay {
+      position: fixed;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 999;
+      opacity: 0.055;
+      mix-blend-mode: overlay;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    }
+
+    /* Professional Clean Scrollbar */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #08020f;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #2d1245;
+      border-radius: 9999px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #a855f7;
+    }
+
+    ::selection {
+      background-color: #a855f7;
+      color: #ffffff;
+    }
+
+    .glass-nav {
+      background: rgba(8, 2, 15, 0.88);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(168, 85, 247, 0.15);
+    }
+
+    .glass-card {
+      background: rgba(17, 5, 29, 0.78);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(168, 85, 247, 0.14);
+    }
+
+    .glass-card:hover {
+      border-color: rgba(192, 132, 252, 0.45);
+      box-shadow: 0 10px 40px -10px rgba(147, 51, 234, 0.25);
+    }
+
+    .hide-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .hide-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
+</head>
+<body class="bg-[#08020f] text-[#f5f3f9] font-sans antialiased overflow-x-hidden selection:bg-purple-600 selection:text-white">
+
+  <!-- SVG Film Grain Texture Overlay -->
+  <div class="grain-overlay"></div>
+
+  <!-- Subtle Animated Canvas Grain -->
+  <canvas id="grainCanvas" class="pointer-events-none fixed inset-0 z-50 h-full w-full opacity-20 mix-blend-screen" style="image-rendering: pixelated;"></canvas>
+
+  <!-- STICKY GLASS NAVIGATION BAR -->
+  <header id="mainNav" class="fixed top-0 left-0 right-0 z-40 py-5 transition-all duration-500">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-6 md:px-10">
+      
+      <!-- Logo & Profile Avatar -->
+      <a href="#home" class="group flex items-center gap-3">
+        <div class="relative flex h-10 w-10 overflow-hidden rounded-xl border border-purple-500/40 bg-neutral-900 shadow-md">
+          <img src="assets/projects/shreehari_avatar.jpg" alt="Shreehari Chougule" class="h-full w-full object-cover object-top transition-transform duration-300 group-hover:scale-110" />
+          <span class="absolute bottom-0 right-0 flex h-2.5 w-2.5">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500 border border-black"></span>
+          </span>
+        </div>
+        <div>
+          <div class="font-heading font-bold tracking-tight text-white text-base md:text-lg flex items-center gap-1.5">
+            <span>SHREEHARI CHOUGULE</span>
+          </div>
+          <p class="text-[10px] tracking-wider text-purple-300 font-mono uppercase">Creative Head • Video & Design</p>
+        </div>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav class="hidden lg:flex items-center gap-1 rounded-full border border-purple-500/20 bg-[#120722]/70 p-1.5 backdrop-blur-md">
+        <a href="#home" class="rounded-full px-4 py-1.5 text-xs font-medium tracking-wide text-neutral-300 transition-all hover:bg-white/10 hover:text-white">Home</a>
+        <a href="#about" class="rounded-full px-4 py-1.5 text-xs font-medium tracking-wide text-neutral-300 transition-all hover:bg-white/10 hover:text-white">About Me</a>
+        <a href="#work" class="rounded-full px-4 py-1.5 text-xs font-medium tracking-wide text-neutral-300 transition-all hover:bg-white/10 hover:text-white">Social Media Work</a>
+        <a href="#services" class="rounded-full px-4 py-1.5 text-xs font-medium tracking-wide text-neutral-300 transition-all hover:bg-white/10 hover:text-white">What I Do</a>
+        <a href="#skills" class="rounded-full px-4 py-1.5 text-xs font-medium tracking-wide text-neutral-300 transition-all hover:bg-white/10 hover:text-white">Tools & Skills</a>
+        <a href="#experience" class="rounded-full px-4 py-1.5 text-xs font-medium tracking-wide text-neutral-300 transition-all hover:bg-white/10 hover:text-white">Experience</a>
+        <a href="#contact" class="rounded-full px-4 py-1.5 text-xs font-medium tracking-wide text-neutral-300 transition-all hover:bg-white/10 hover:text-white">Contact</a>
+      </nav>
+
+      <!-- Right CTAs -->
+      <div class="hidden md:flex items-center gap-3">
+        <a href="#contact" class="group relative inline-flex items-center gap-2 overflow-hidden rounded-full bg-white px-6 py-2.5 text-xs font-bold text-neutral-950 transition-all hover:shadow-[0_0_25px_rgba(168,85,247,0.4)] hover:scale-105">
+          <span>Let's Collaborate</span>
+          <i data-lucide="arrow-up-right" class="h-4 w-4"></i>
+        </a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button id="mobileMenuBtn" class="flex h-10 w-10 items-center justify-center rounded-xl border border-purple-500/20 bg-[#120722]/80 text-white lg:hidden">
+        <i data-lucide="menu" class="h-5 w-5"></i>
+      </button>
+
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div id="mobileDrawer" class="hidden fixed inset-x-0 top-[65px] border-b border-purple-500/20 bg-[#090312]/98 p-6 backdrop-blur-2xl lg:hidden">
+      <div class="flex flex-col gap-3">
+        <a href="#home" onclick="toggleMobileMenu()" class="rounded-xl px-4 py-3 text-sm font-medium text-neutral-200 hover:bg-[#1a0b2e]">Home</a>
+        <a href="#about" onclick="toggleMobileMenu()" class="rounded-xl px-4 py-3 text-sm font-medium text-neutral-200 hover:bg-[#1a0b2e]">About Shreehari</a>
+        <a href="#work" onclick="toggleMobileMenu()" class="rounded-xl px-4 py-3 text-sm font-medium text-neutral-200 hover:bg-[#1a0b2e]">Social Media Work</a>
+        <a href="#services" onclick="toggleMobileMenu()" class="rounded-xl px-4 py-3 text-sm font-medium text-neutral-200 hover:bg-[#1a0b2e]">What I Do</a>
+        <a href="#skills" onclick="toggleMobileMenu()" class="rounded-xl px-4 py-3 text-sm font-medium text-neutral-200 hover:bg-[#1a0b2e]">Tools of the Trade</a>
+        <a href="#experience" onclick="toggleMobileMenu()" class="rounded-xl px-4 py-3 text-sm font-medium text-neutral-200 hover:bg-[#1a0b2e]">Experience & Education</a>
+        <a href="#contact" onclick="toggleMobileMenu()" class="rounded-xl px-4 py-3 text-sm font-medium text-neutral-200 hover:bg-[#1a0b2e]">Contact Shreehari</a>
+
+        <div class="mt-4 pt-4 border-t border-purple-500/20 flex flex-col gap-3">
+          <a href="#contact" onclick="toggleMobileMenu()" class="flex w-full items-center justify-center gap-2 rounded-xl bg-white py-3 text-sm font-bold text-black">
+            <span>Let's Collaborate ↗</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION WITH SHREEHARI'S PORTRAIT -->
+  <section id="home" class="relative min-h-screen w-full flex flex-col justify-between overflow-hidden bg-[#08020f] pt-28 pb-12">
+    <!-- Ambient Video Loop & Vignette -->
+    <div class="absolute inset-0 z-0">
+      <video id="heroVideo" autoPlay loop muted playsInline poster="assets/projects/video/midnight_stories_thumb.jpg" class="h-full w-full object-cover opacity-25 scale-105 transition-transform duration-1000 ease-out">
+        <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4" type="video/mp4" />
+      </video>
+      <div class="absolute inset-0 bg-gradient-to-t from-[#08020f] via-[#08020f]/75 to-[#08020f]/90"></div>
+      <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,rgba(8,2,15,0.92)_100%)]"></div>
+      <div class="absolute top-1/3 left-1/4 w-96 h-96 bg-purple-600/15 rounded-full blur-[150px] pointer-events-none"></div>
+      <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-violet-600/10 rounded-full blur-[160px] pointer-events-none"></div>
+    </div>
+
+    <!-- Top Status Bar -->
+    <div class="relative z-10 mx-auto w-full max-w-7xl px-6 md:px-10">
+      <div class="flex flex-wrap items-center justify-between gap-4 border-b border-purple-500/15 pb-4 text-[11px] font-mono tracking-wider text-neutral-400">
+        <div class="flex items-center gap-2">
+          <span class="h-2 w-2 rounded-full bg-emerald-400 animate-pulse"></span>
+          <span class="text-neutral-300 font-medium">AVAILABLE FOR FREELANCE & REMOTE COMMISSIONS</span>
+        </div>
+
+        <div class="hidden sm:flex items-center gap-6">
+          <span class="text-purple-300 font-semibold">BFA ART STUDIES (GRADE A+)</span>
+          <span>4+ YEARS EXPERIENCE</span>
+          <span>MUMBAI / PUNE / GLOBAL</span>
+        </div>
+
+        <button id="soundToggleBtn" onclick="toggleHeroSound()" class="flex items-center gap-1.5 rounded-full border border-purple-500/20 bg-white/5 px-3 py-1 text-neutral-300 hover:border-purple-400 hover:text-purple-300 transition-colors">
+          <i data-lucide="volume-x" id="soundIcon" class="h-3.5 w-3.5"></i>
+          <span id="soundText">SOUND OFF</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Center Hero Grid: Typography + Portrait Photo Card -->
+    <div class="relative z-10 mx-auto my-auto w-full max-w-7xl px-6 md:px-10 py-12 md:py-16">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left: Copy & CTAs -->
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2 rounded-full border border-purple-400/30 bg-purple-500/10 px-4 py-1.5 text-xs font-mono font-medium tracking-wider text-purple-300 backdrop-blur-md shadow-sm">
+            <i data-lucide="sparkles" class="h-3.5 w-3.5 text-purple-300"></i>
+            <span>GRAPHIC DESIGN & VIDEO PORTFOLIO</span>
+          </div>
+
+          <div>
+            <h2 class="text-sm md:text-base font-mono uppercase tracking-[0.25em] text-neutral-400 mb-2">
+              SHREEHARI CHOUGULE
+            </h2>
+            <h1 class="font-heading text-4xl sm:text-6xl md:text-7xl font-extrabold tracking-tight text-white leading-[1.08]">
+              CREATIVE HEAD <br />
+              <span class="bg-gradient-to-r from-purple-200 via-purple-400 to-violet-400 bg-clip-text text-transparent">
+                & VIDEO CREATOR
+              </span>
+            </h1>
+          </div>
+
+          <p class="text-lg sm:text-xl font-light text-neutral-200 leading-relaxed max-w-2xl">
+            "Turning Raw Footage Into Stories That Move."
+          </p>
+
+          <p class="text-sm sm:text-base text-neutral-400 max-w-2xl leading-relaxed">
+            I transform raw footage into cinematic stories, engaging social content, and visuals that people remember. Formal BFA in Art Studies (Grade A+) from MIT World Peace University, delivering creative direction, frame-accurate editing, motion design, and brand identities.
+          </p>
+
+          <!-- Buttons -->
+          <div class="flex flex-wrap items-center gap-4 pt-2">
+            <a href="#work" class="group inline-flex items-center gap-2.5 rounded-full bg-gradient-to-r from-purple-600 to-violet-600 px-7 py-3.5 text-sm font-bold text-white transition-all hover:from-purple-500 hover:to-violet-500 hover:shadow-[0_0_30px_rgba(168,85,247,0.5)] hover:scale-105">
+              <i data-lucide="eye" class="h-4 w-4"></i>
+              <span>View My Work</span>
+            </a>
+
+            <a href="#contact" class="group inline-flex items-center gap-2 rounded-full border border-white/20 bg-neutral-900/80 px-6 py-3.5 text-sm font-semibold text-white backdrop-blur-md transition-all hover:border-purple-400 hover:bg-purple-500/10">
+              <span>Let's Collaborate</span>
+              <i data-lucide="arrow-up-right" class="h-4 w-4"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Shreehari's Real Portrait Photo Showcase -->
+        <div class="lg:col-span-5 flex justify-center">
+          <div class="relative w-full max-w-md rounded-3xl overflow-hidden border border-purple-500/25 bg-[#120722] shadow-[0_20px_60px_rgba(0,0,0,0.9)] group">
+            
+            <div class="relative aspect-[3/4] w-full overflow-hidden bg-[#090312] flex items-center justify-center">
+              <!-- Shreehari's Photo -->
+              <img
+                src="assets/projects/shreehari_portrait.jpg"
+                alt="Shreehari Chougule"
+                class="h-full w-full object-cover object-top filter brightness-100 contrast-105 transition-transform duration-700 group-hover:scale-105"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-[#08020f] via-[#08020f]/25 to-transparent"></div>
+
+              <!-- Floating Profile Badge -->
+              <div class="absolute bottom-5 left-5 right-5 p-4 rounded-2xl bg-[#090312]/95 backdrop-blur-md border border-purple-500/20 shadow-xl">
+                <div class="flex items-center justify-between mb-1">
+                  <div class="flex items-center gap-2">
+                    <span class="h-2 w-2 rounded-full bg-emerald-400"></span>
+                    <span class="text-xs font-bold text-white uppercase tracking-wide">Shreehari Chougule</span>
+                  </div>
+                  <span class="text-[10px] font-mono text-purple-300 bg-purple-500/15 px-2 py-0.5 rounded border border-purple-400/30">BFA Grade: A+</span>
+                </div>
+                <p class="text-[11px] text-neutral-300 font-mono">Creative Head • Graphic Designer & Video Creator</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Bottom Statistics -->
+    <div class="relative z-10 mx-auto w-full max-w-7xl px-6 md:px-10">
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-6 border-t border-purple-500/15">
+        <div>
+          <span class="font-heading text-2xl sm:text-3xl font-extrabold text-white">4+</span>
+          <span class="block text-xs font-medium text-purple-300 uppercase">Years Experience</span>
+          <span class="text-[11px] text-neutral-400 font-mono">Graphic design & video production</span>
+        </div>
+        <div>
+          <span class="font-heading text-2xl sm:text-3xl font-extrabold text-white">BFA (A+)</span>
+          <span class="block text-xs font-medium text-purple-300 uppercase">Art Studies Degree</span>
+          <span class="text-[11px] text-neutral-400 font-mono">MIT World Peace University</span>
+        </div>
+        <div>
+          <span class="font-heading text-2xl sm:text-3xl font-extrabold text-white">GD Art</span>
+          <span class="block text-xs font-medium text-purple-300 uppercase">Applied Art Program</span>
+          <span class="text-[11px] text-neutral-400 font-mono">Abhinav Kala Mahavidyalaya</span>
+        </div>
+        <div>
+          <span class="font-heading text-2xl sm:text-3xl font-extrabold text-white">3+</span>
+          <span class="block text-xs font-medium text-purple-300 uppercase">Agency Roles</span>
+          <span class="text-[11px] text-neutral-400 font-mono">Digitally Bugged & Rhetorica</span>
+        </div>
+      </div>
+
+      <div class="mt-8 flex items-center justify-center">
+        <a href="#about" class="group flex flex-col items-center gap-2 text-[10px] font-mono tracking-widest text-neutral-400 hover:text-purple-300 transition-colors">
+          <span>SCROLL TO EXPLORE</span>
+          <div class="flex h-7 w-4 items-start justify-center rounded-full border border-purple-500/30 p-1">
+            <div class="h-1.5 w-1 rounded-full bg-purple-400 animate-bounce"></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT & INTRODUCTION SECTION (HELLO THERE!) -->
+  <section id="about" class="relative w-full bg-[#0d041a] py-24 md:py-32 overflow-hidden border-t border-purple-500/15">
+    <div class="absolute top-1/2 left-0 -translate-y-1/2 w-96 h-96 bg-purple-600/10 rounded-full blur-[140px] pointer-events-none"></div>
+    <div class="absolute bottom-0 right-0 w-96 h-96 bg-violet-600/10 rounded-full blur-[150px] pointer-events-none"></div>
+
+    <div class="relative z-10 mx-auto max-w-7xl px-6 md:px-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+        
+        <!-- Left: Photo & Table of Contents Index from PDF -->
+        <div class="lg:col-span-5 space-y-6">
+          <div class="rounded-3xl border border-purple-500/20 bg-[#120722]/80 p-6 backdrop-blur-md space-y-4 shadow-xl">
+            <div class="flex items-center gap-4">
+              <div class="h-16 w-16 overflow-hidden rounded-2xl border border-purple-400/40 bg-[#090312] shrink-0">
+                <img src="assets/projects/shreehari_avatar.jpg" alt="Shreehari" class="h-full w-full object-cover object-top" />
+              </div>
+              <div>
+                <h3 class="font-heading text-lg font-bold text-white">Shreehari Chougule</h3>
+                <p class="text-xs text-purple-300 font-mono">Creative Head • BFA in Art Studies</p>
+                <p class="text-[11px] text-neutral-400">GD Art Applied Art • Abhinav Kala</p>
+              </div>
+            </div>
+
+            <!-- PDF Table of Contents "My - Content" Index -->
+            <div class="pt-4 border-t border-purple-500/15 space-y-2">
+              <span class="text-[10px] font-mono uppercase tracking-widest text-purple-300 block mb-2">
+                PORTFOLIO PILLARS (FROM OFFICIAL PDF)
+              </span>
+              <div class="grid grid-cols-2 gap-2 text-xs font-mono">
+                <div class="p-2.5 rounded-xl bg-[#090312]/80 border border-purple-500/15"><span class="text-purple-300 font-bold">1.</span> Social Media</div>
+                <div class="p-2.5 rounded-xl bg-[#090312]/80 border border-purple-500/15"><span class="text-purple-300 font-bold">2.</span> Branding</div>
+                <div class="p-2.5 rounded-xl bg-[#090312]/80 border border-purple-500/15"><span class="text-purple-300 font-bold">3.</span> Social Media</div>
+                <div class="p-2.5 rounded-xl bg-[#090312]/80 border border-purple-500/15"><span class="text-purple-300 font-bold">4.</span> Print Media</div>
+                <div class="p-2.5 rounded-xl bg-[#090312]/80 border border-purple-500/15"><span class="text-purple-300 font-bold">5.</span> Web Landing Page</div>
+                <div class="p-2.5 rounded-xl bg-[#090312]/80 border border-purple-500/15"><span class="text-purple-300 font-bold">6.</span> Video Editing</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Official Biography & Education -->
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center gap-2 text-xs font-mono font-semibold tracking-wider text-purple-400 uppercase">
+            <span class="h-1.5 w-6 bg-purple-400 rounded-full"></span>
+            <span>HELLO THERE!</span>
+          </div>
+
+          <h2 class="font-heading text-3xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight">
+            I DON'T JUST EDIT VIDEOS. <br />
+            <span class="text-neutral-500">I CREATE EXPERIENCES.</span>
+          </h2>
+
+          <p class="text-base sm:text-lg text-neutral-200 leading-relaxed font-light">
+            "I'm a creative designer with over four years of experience in transforming ideas into visually compelling realities. Having a BFA Degree in Art Studies from MIT World Peace University (Grade: A+), I blend artistic sensibility with a keen focus on functional design. My expertise spans graphic design, branding, digital illustration, and web design, with proficiency in Adobe Creative Suite. I thrive on challenges, finding innovative solutions that leave a lasting impact."
+          </p>
+
+          <p class="text-sm text-neutral-400 leading-relaxed">
+            "From the first cut to the final color grade, I focus on rhythm, emotion, storytelling, and visual impact. Whether it's a cinematic film, social media reel, music video, advertisement, or brand campaign, every frame has a purpose."
+          </p>
+
+          <!-- Education Section from PDF -->
+          <div class="pt-4 border-t border-purple-500/15 space-y-3">
+            <h4 class="text-xs font-mono uppercase tracking-widest text-neutral-400">Formal Education</h4>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div class="p-4 rounded-2xl border border-purple-500/20 bg-[#120722]/60 space-y-1">
+                <div class="flex items-center gap-2 text-purple-300 text-xs font-mono">
+                  <i data-lucide="graduation-cap" class="h-4 w-4"></i>
+                  <span>May 2022 — May 2023 (Grade: A+)</span>
+                </div>
+                <h5 class="text-sm font-bold text-white">MIT World Peace University</h5>
+                <p class="text-xs text-neutral-400 font-mono">Bachelor of Fine Arts - BFA, Art / Art Studies, General</p>
+              </div>
+
+              <div class="p-4 rounded-2xl border border-purple-500/20 bg-[#120722]/60 space-y-1">
+                <div class="flex items-center gap-2 text-purple-300 text-xs font-mono">
+                  <i data-lucide="award" class="h-4 w-4"></i>
+                  <span>2018 — 2022</span>
+                </div>
+                <h5 class="text-sm font-bold text-white">BKP Sabha's Abhinav Kala Maha Vidyalaya</h5>
+                <p class="text-xs text-neutral-400 font-mono">GD Art, applied art (4-Year Program)</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SELECTED WORK & PDF PORTFOLIO SECTION -->
+  <section id="work" class="relative w-full bg-[#08020f] py-28 md:py-36 overflow-hidden border-t border-purple-500/15">
+    <div class="mx-auto max-w-7xl px-6 md:px-10">
+      
+      <!-- Section Title -->
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+        <div>
+          <div class="inline-flex items-center gap-2 text-xs font-mono font-semibold tracking-wider text-purple-300 uppercase mb-3">
+            <span class="h-1.5 w-6 bg-purple-400 rounded-full"></span>
+            <span>FEATURED PORTFOLIO & CREATIVE SHOWCASE</span>
+          </div>
+          <h2 class="font-heading text-4xl sm:text-6xl font-extrabold tracking-tight text-white leading-none">
+            SOCIAL MEDIA WORK
+          </h2>
+          <p class="mt-3 text-sm sm:text-base text-neutral-400 max-w-xl">
+            A collection of social media creatives, brand campaigns, festival designs, and visual stories I've helped bring to life.
+          </p>
+        </div>
+
+        <div class="text-right hidden md:block">
+          <span class="text-xs font-mono text-neutral-500 block">AUTHENTIC ARCHIVE</span>
+          <span class="text-xl font-mono font-bold text-purple-300">2024 — 2026</span>
+        </div>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="flex items-center gap-2 overflow-x-auto pb-4 mb-12 hide-scrollbar border-b border-purple-500/15">
+        <div class="flex items-center gap-2 shrink-0 pr-4 text-xs font-mono text-neutral-400">
+          <i data-lucide="filter" class="h-3.5 w-3.5 text-purple-300"></i>
+          <span>FILTER:</span>
+        </div>
+        <button onclick="filterProjects('All', this)" class="filter-btn active shrink-0 rounded-full px-4 py-2 text-xs font-bold bg-gradient-to-r from-purple-600 to-violet-600 text-white shadow-[0_0_20px_rgba(168,85,247,0.4)] border border-purple-400">All Work</button>
+        <button onclick="filterProjects('Social Media', this)" class="filter-btn shrink-0 rounded-full px-4 py-2 text-xs font-medium bg-[#120722]/80 text-neutral-300 hover:bg-[#1f0b38] hover:text-white border border-purple-500/15">1. Social Media</button>
+        <button onclick="filterProjects('Branding', this)" class="filter-btn shrink-0 rounded-full px-4 py-2 text-xs font-medium bg-[#120722]/80 text-neutral-300 hover:bg-[#1f0b38] hover:text-white border border-purple-500/15">2. Branding</button>
+        <button onclick="filterProjects('Print', this)" class="filter-btn shrink-0 rounded-full px-4 py-2 text-xs font-medium bg-[#120722]/80 text-neutral-300 hover:bg-[#1f0b38] hover:text-white border border-purple-500/15">3. Social & Print</button>
+        <button onclick="filterProjects('UI/Web', this)" class="filter-btn shrink-0 rounded-full px-4 py-2 text-xs font-medium bg-[#120722]/80 text-neutral-300 hover:bg-[#1f0b38] hover:text-white border border-purple-500/15">4. Landing Page</button>
+        <button onclick="filterProjects('Cinematic', this)" class="filter-btn shrink-0 rounded-full px-4 py-2 text-xs font-medium bg-[#120722]/80 text-neutral-300 hover:bg-[#1f0b38] hover:text-white border border-purple-500/15">5. Video Editing</button>
+        <button onclick="filterProjects('Reels', this)" class="filter-btn shrink-0 rounded-full px-4 py-2 text-xs font-medium bg-[#120722]/80 text-neutral-300 hover:bg-[#1f0b38] hover:text-white border border-purple-500/15">6. Reels & Shorts</button>
+      </div>
+
+      <!-- Project Cards Grid -->
+      <div id="projectsGrid" class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">
+        <!-- Rendered via JS -->
+      </div>
+
+      <!-- SOCIAL MEDIA CONNECTION & CREATIVES BOARD (ORIGINAL CLEAN DARK THEME) -->
+      <div id="logofolioSection" class="mt-20 pt-16 border-t border-purple-500/15">
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8">
+          <div>
+            <span class="text-xs font-mono text-purple-300 uppercase tracking-widest block mb-1">
+              MY - CONTENT #1 • SOCIAL MEDIA CONNECTION
+            </span>
+            <h3 class="font-heading text-2xl sm:text-3xl font-extrabold text-white uppercase">
+              Social Media Collection
+            </h3>
+          </div>
+          <p class="text-xs text-neutral-400 max-w-md font-mono leading-relaxed">
+            High-impact social media creatives, festival campaigns, luxury product showcases, and real estate visual branding designed for maximum digital engagement.
+          </p>
+        </div>
+
+        <div id="logosGrid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 sm:gap-4">
+          <!-- Rendered via JS -->
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION (WHAT I DO) -->
+  <section id="services" class="relative w-full bg-[#0d041a] py-28 md:py-36 overflow-hidden border-t border-purple-500/15">
+    <div class="absolute top-1/3 right-0 w-96 h-96 bg-purple-600/10 rounded-full blur-[140px] pointer-events-none"></div>
+    <div class="mx-auto max-w-7xl px-6 md:px-10">
+      <div class="max-w-3xl mb-16 space-y-3">
+        <div class="inline-flex items-center gap-2 text-xs font-mono font-semibold tracking-wider text-purple-400 uppercase">
+          <span class="h-1.5 w-6 bg-purple-400 rounded-full"></span>
+          <span>SERVICES & EXPERTISE</span>
+        </div>
+        <h2 class="font-heading text-4xl sm:text-6xl font-extrabold uppercase tracking-tight text-white leading-tight">
+          WHAT I DO
+        </h2>
+        <p class="text-sm sm:text-base text-neutral-400 leading-relaxed">
+          Comprehensive post-production and visual design solutions engineered to elevate brands and create lasting impact.
+        </p>
+      </div>
+
+      <div id="servicesGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+        <!-- 6 Service Cards -->
+      </div>
+    </div>
+  </section>
+
+  <!-- EDITING PROCESS (FROM FOOTAGE TO FINAL FRAME) -->
+  <section id="process" class="relative w-full bg-[#08020f] py-28 md:py-36 overflow-hidden border-t border-purple-500/15">
+    <div class="mx-auto max-w-7xl px-6 md:px-10">
+      <div class="max-w-3xl mb-16 space-y-3">
+        <div class="inline-flex items-center gap-2 text-xs font-mono font-semibold tracking-wider text-purple-300 uppercase">
+          <span class="h-1.5 w-6 bg-purple-400 rounded-full"></span>
+          <span>WORKFLOW</span>
+        </div>
+        <h2 class="font-heading text-4xl sm:text-6xl font-extrabold uppercase tracking-tight text-white leading-tight">
+          FROM FOOTAGE TO FINAL FRAME
+        </h2>
+        <p class="text-sm sm:text-base text-neutral-400 leading-relaxed">
+          The 5-step creative pipeline ensuring story pacing, color precision, and platform-optimized delivery.
+        </p>
+      </div>
+
+      <div id="processButtons" class="grid grid-cols-1 md:grid-cols-5 gap-4 mb-12">
+        <!-- 5 Steps -->
+      </div>
+
+      <div id="activeProcessCard" class="rounded-3xl border border-purple-500/20 bg-[#120722]/85 p-8 md:p-12 backdrop-blur-xl shadow-2xl relative overflow-hidden">
+        <!-- Populated via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- TOOLS OF THE TRADE & SKILLS (FROM PDF) -->
+  <section id="skills" class="relative w-full bg-[#0d041a] py-28 md:py-36 overflow-hidden border-t border-purple-500/15">
+    <div class="mx-auto max-w-7xl px-6 md:px-10">
+      <div class="max-w-3xl mb-16 space-y-3">
+        <div class="inline-flex items-center gap-2 text-xs font-mono font-semibold tracking-wider text-purple-400 uppercase">
+          <span class="h-1.5 w-6 bg-purple-400 rounded-full"></span>
+          <span>SKILLS & SOFTWARE</span>
+        </div>
+        <h2 class="font-heading text-4xl sm:text-6xl font-extrabold uppercase tracking-tight text-white leading-tight">
+          TOOLS OF THE TRADE
+        </h2>
+        <p class="text-sm sm:text-base text-neutral-400 leading-relaxed">
+          Mastery across Adobe Creative Suite, Blender 3D, and DaVinci Resolve color science.
+        </p>
+      </div>
+
+      <div id="toolsGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mb-16">
+        <!-- Tools cards -->
+      </div>
+
+      <!-- Skills Cloud -->
+      <div class="rounded-3xl border border-purple-500/20 bg-[#120722]/70 p-8 md:p-10 backdrop-blur-xl">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+          <div>
+            <h3 class="font-heading text-xl sm:text-2xl font-bold text-white uppercase">
+              Core Skills & Capabilities
+            </h3>
+            <p class="text-xs text-neutral-400 font-mono mt-1">
+              No fake percentages — pure professional competencies honed over 4+ years.
+            </p>
+          </div>
+          <span class="text-xs font-mono text-purple-300">14+ SPECIALTIES</span>
+        </div>
+
+        <div id="skillsCloud" class="flex flex-wrap gap-2.5 sm:gap-3">
+          <!-- Skills tags -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE SECTION (FROM PDF) -->
+  <section id="experience" class="relative w-full bg-[#08020f] py-28 md:py-36 overflow-hidden border-t border-purple-500/15">
+    <div class="mx-auto max-w-7xl px-6 md:px-10">
+      <div class="max-w-3xl mb-16 space-y-3">
+        <div class="inline-flex items-center gap-2 text-xs font-mono font-semibold tracking-wider text-purple-300 uppercase">
+          <span class="h-1.5 w-6 bg-purple-400 rounded-full"></span>
+          <span>PROFESSIONAL BACKGROUND</span>
+        </div>
+        <h2 class="font-heading text-4xl sm:text-6xl font-extrabold uppercase tracking-tight text-white leading-tight">
+          EXPERIENCE & TIMELINE
+        </h2>
+        <p class="text-sm sm:text-base text-neutral-400 leading-relaxed">
+          Proven track record in agency, in-house, and high-impact freelance production.
+        </p>
+      </div>
+
+      <div id="timelineContainer" class="relative border-l-2 border-purple-500/20 ml-4 md:ml-8 space-y-12 pl-6 md:pl-10">
+        <!-- Experience timeline from PDF -->
+      </div>
+    </div>
+  </section>
+
+  <!-- GENUINE AGENCIES & CLIENT ORGANIZATIONS MARQUEE -->
+  <section class="relative w-full bg-[#0d041a] py-16 overflow-hidden border-y border-purple-500/15">
+    <div class="mx-auto max-w-7xl px-6 md:px-10 mb-8 text-center">
+      <span class="text-xs font-mono font-semibold uppercase tracking-widest text-neutral-500">
+        COMPANIES, AGENCIES & BRANDS WORKED WITH
+      </span>
+    </div>
+
+    <div class="flex overflow-hidden select-none">
+      <div class="flex shrink-0 items-center gap-12 sm:gap-16 animate-marquee whitespace-nowrap text-lg sm:text-xl font-heading font-black tracking-widest text-neutral-500">
+        <span>● DIGITALLY BUGGED</span>
+        <span>◈ RHETORICA-POLITIK</span>
+        <span>▲ SOCIALCHAMPS MEDIA</span>
+        <span>● LONZA & UC-II</span>
+        <span>✦ MIT WORLD PEACE UNIVERSITY</span>
+        <span>◆ AUGUSTBROWN</span>
+        <span>■ NEXAEDGE</span>
+        <span>✦ S-CANDOUR</span>
+        <span>● DIGITALLY BUGGED</span>
+        <span>◈ RHETORICA-POLITIK</span>
+        <span>▲ SOCIALCHAMPS MEDIA</span>
+        <span>● LONZA & UC-II</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CREATIVE WORLD (VERTICAL REELS GRID) -->
+  <section class="relative w-full bg-[#08020f] py-28 md:py-36 overflow-hidden border-t border-purple-500/15">
+    <div class="mx-auto max-w-7xl px-6 md:px-10">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-16">
+        <div class="max-w-2xl space-y-3">
+          <div class="inline-flex items-center gap-2 text-xs font-mono font-semibold tracking-wider text-purple-400 uppercase">
+            <span class="h-1.5 w-6 bg-purple-400 rounded-full"></span>
+            <span>SHORT-FORM VIDEO LAB</span>
+          </div>
+          <h2 class="font-heading text-4xl sm:text-6xl font-extrabold uppercase tracking-tight text-white leading-tight">
+            MORE FROM MY CREATIVE WORLD
+          </h2>
+          <p class="text-sm sm:text-base text-neutral-400 leading-relaxed">
+            High-retention 9:16 vertical edits, viral hooks, kinetic typography tests, and experimental film clips.
+          </p>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-3">
+          <a href="https://instagram.com" target="_blank" rel="noreferrer" class="inline-flex items-center gap-1.5 rounded-full border border-purple-500/20 bg-[#120722] px-4 py-2 text-xs font-mono text-neutral-300 hover:border-purple-400 hover:text-white transition-colors">
+            <span>Instagram</span>
+            <i data-lucide="arrow-up-right" class="h-3 w-3 text-purple-300"></i>
+          </a>
+          <a href="https://youtube.com" target="_blank" rel="noreferrer" class="inline-flex items-center gap-1.5 rounded-full border border-purple-500/20 bg-[#120722] px-4 py-2 text-xs font-mono text-neutral-300 hover:border-purple-400 hover:text-white transition-colors">
+            <span>YouTube</span>
+            <i data-lucide="arrow-up-right" class="h-3 w-3 text-purple-300"></i>
+          </a>
+          <a href="https://behance.net" target="_blank" rel="noreferrer" class="inline-flex items-center gap-1.5 rounded-full border border-purple-500/20 bg-[#120722] px-4 py-2 text-xs font-mono text-neutral-300 hover:border-purple-400 hover:text-white transition-colors">
+            <span>Behance</span>
+            <i data-lucide="arrow-up-right" class="h-3 w-3 text-purple-300"></i>
+          </a>
+          <a href="https://vimeo.com" target="_blank" rel="noreferrer" class="inline-flex items-center gap-1.5 rounded-full border border-purple-500/20 bg-[#120722] px-4 py-2 text-xs font-mono text-neutral-300 hover:border-purple-400 hover:text-white transition-colors">
+            <span>Vimeo</span>
+            <i data-lucide="arrow-up-right" class="h-3 w-3 text-purple-300"></i>
+          </a>
+        </div>
+      </div>
+
+      <div id="reelsGrid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 sm:gap-6">
+        <!-- 6 Vertical Reels -->
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="relative w-full bg-[#0d041a] py-28 md:py-36 overflow-hidden border-t border-purple-500/15">
+    <div class="absolute top-1/3 left-0 w-96 h-96 bg-purple-600/10 rounded-full blur-[150px] pointer-events-none"></div>
+    <div class="relative z-10 mx-auto max-w-7xl px-6 md:px-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
+        
+        <!-- Left: Info -->
+        <div class="lg:col-span-5 space-y-8">
+          <div class="space-y-3">
+            <div class="inline-flex items-center gap-2 text-xs font-mono font-semibold tracking-wider text-purple-400 uppercase">
+              <span class="h-1.5 w-6 bg-purple-400 rounded-full"></span>
+              <span>START A CONVERSATION</span>
+            </div>
+            <h2 class="font-heading text-4xl sm:text-6xl font-extrabold uppercase tracking-tight text-white leading-tight">
+              HAVE A STORY <br />
+              <span class="text-purple-300">TO TELL?</span>
+            </h2>
+            <p class="text-lg sm:text-xl text-neutral-300 font-light leading-relaxed">
+              Let's turn your idea into something worth watching.
+            </p>
+          </div>
+
+          <p class="text-sm text-neutral-400 leading-relaxed">
+            Whether you need a full post-production pipeline, high-retention video content, or a cohesive brand identity, I'm ready to bring your vision to life.
+          </p>
+
+          <div class="space-y-3 pt-4 border-t border-purple-500/15">
+            <!-- Email -->
+            <div class="flex items-center justify-between p-4 rounded-2xl border border-purple-500/20 bg-[#120722]/80">
+              <div class="flex items-center gap-3">
+                <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-purple-500/10 text-purple-300 border border-purple-500/20">
+                  <i data-lucide="mail" class="h-5 w-5"></i>
+                </div>
+                <div>
+                  <span class="text-[10px] font-mono text-neutral-400 uppercase block">DIRECT EMAIL</span>
+                  <a href="mailto:shreeharichougule.design@gmail.com" class="text-xs sm:text-sm font-mono font-semibold text-white hover:text-purple-300 transition-colors">
+                    shreeharichougule.design@gmail.com
+                  </a>
+                </div>
+              </div>
+              <button onclick="copyEmail()" class="p-2 text-neutral-400 hover:text-white rounded-lg bg-[#090312] border border-purple-500/15 transition-colors" title="Copy email">
+                <i data-lucide="copy" id="copyIcon" class="h-4 w-4"></i>
+              </button>
+            </div>
+
+            <!-- WhatsApp -->
+            <a href="https://wa.me/919876543210?text=Hi%20Shreehari,%20I'd%20like%20to%20collaborate%20on%20a%20project!" target="_blank" rel="noreferrer" class="flex items-center justify-between p-4 rounded-2xl border border-emerald-500/30 bg-emerald-950/20 hover:bg-emerald-950/40 transition-colors group">
+              <div class="flex items-center gap-3">
+                <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">
+                  <i data-lucide="message-square" class="h-5 w-5"></i>
+                </div>
+                <div>
+                  <span class="text-[10px] font-mono text-emerald-400 uppercase block">FAST RESPONSE</span>
+                  <span class="text-xs sm:text-sm font-mono font-semibold text-white">Chat on WhatsApp</span>
+                </div>
+              </div>
+              <i data-lucide="arrow-up-right" class="h-4 w-4 text-emerald-400 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5"></i>
+            </a>
+          </div>
+
+          <div class="flex items-center gap-2 text-xs font-mono text-neutral-400">
+            <span class="h-2 w-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            <span>Response time: Usually within 24 hours</span>
+          </div>
+        </div>
+
+        <!-- Right: Inquiry Form -->
+        <div class="lg:col-span-7">
+          <div class="rounded-3xl border border-purple-500/25 bg-[#120722]/80 p-8 sm:p-10 backdrop-blur-xl shadow-2xl">
+            <form id="inquiryForm" onsubmit="handleFormSubmit(event)" class="space-y-6">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div class="space-y-1.5">
+                  <label class="text-xs font-mono uppercase tracking-wider text-neutral-300">Your Name *</label>
+                  <input type="text" required placeholder="e.g. Alex Miller" class="w-full rounded-xl border border-purple-500/20 bg-[#090312] px-4 py-3 text-sm text-white placeholder-neutral-500 focus:border-purple-400 focus:outline-none focus:ring-1 focus:ring-purple-400 transition-colors" />
+                </div>
+                <div class="space-y-1.5">
+                  <label class="text-xs font-mono uppercase tracking-wider text-neutral-300">Email Address *</label>
+                  <input type="email" required placeholder="alex@brand.com" class="w-full rounded-xl border border-purple-500/20 bg-[#090312] px-4 py-3 text-sm text-white placeholder-neutral-500 focus:border-purple-400 focus:outline-none focus:ring-1 focus:ring-purple-400 transition-colors" />
+                </div>
+              </div>
+
+              <div class="space-y-1.5">
+                <label class="text-xs font-mono uppercase tracking-wider text-neutral-300">Project Type</label>
+                <select class="w-full rounded-xl border border-purple-500/20 bg-[#090312] px-4 py-3 text-sm text-white focus:border-purple-400 focus:outline-none focus:ring-1 focus:ring-purple-400 transition-colors cursor-pointer">
+                  <option value="Commercial">Commercial / Brand Film</option>
+                  <option value="Short Film">Cinematic Short Film</option>
+                  <option value="Instagram Reel">Instagram Reel / TikTok</option>
+                  <option value="YouTube Video">YouTube Video / Documentary</option>
+                  <option value="Motion Graphics">Motion Graphics & VFX</option>
+                  <option value="Branding">Brand Identity & Social Media</option>
+                  <option value="Packaging">Print & Packaging Design</option>
+                  <option value="Website">Website Landing Page</option>
+                  <option value="Other">Other Creative Work</option>
+                </select>
+              </div>
+
+              <div class="space-y-2">
+                <label class="text-xs font-mono uppercase tracking-wider text-neutral-300">Estimated Budget (USD)</label>
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                  <button type="button" onclick="selectBudget(this, '<$1,000')" class="budget-btn rounded-xl border border-purple-500/15 bg-[#090312] py-2.5 px-2 text-xs font-mono text-center text-neutral-400 hover:border-purple-400/40 hover:text-white">&lt;$1,000</button>
+                  <button type="button" onclick="selectBudget(this, '$1,000 - $3,000')" class="budget-btn active rounded-xl border border-purple-400 bg-purple-500/20 py-2.5 px-2 text-xs font-mono text-center text-purple-200 font-bold shadow-[0_0_15px_rgba(168,85,247,0.3)]">$1k - $3k</button>
+                  <button type="button" onclick="selectBudget(this, '$3,000 - $5,000')" class="budget-btn rounded-xl border border-purple-500/15 bg-[#090312] py-2.5 px-2 text-xs font-mono text-center text-neutral-400 hover:border-purple-400/40 hover:text-white">$3k - $5k</button>
+                  <button type="button" onclick="selectBudget(this, '$5,000+')" class="budget-btn rounded-xl border border-purple-500/15 bg-[#090312] py-2.5 px-2 text-xs font-mono text-center text-neutral-400 hover:border-purple-400/40 hover:text-white">$5,000+</button>
+                </div>
+              </div>
+
+              <div class="space-y-1.5">
+                <label class="text-xs font-mono uppercase tracking-wider text-neutral-300">Project Details & Vision</label>
+                <textarea rows="4" placeholder="Tell me about your project goals, footage, timeline, or references..." class="w-full rounded-xl border border-purple-500/20 bg-[#090312] px-4 py-3 text-sm text-white placeholder-neutral-500 focus:border-purple-400 focus:outline-none focus:ring-1 focus:ring-purple-400 transition-colors"></textarea>
+              </div>
+
+              <button type="submit" class="group relative flex w-full items-center justify-center gap-3 rounded-full bg-gradient-to-r from-purple-600 to-violet-600 py-4 text-sm font-bold text-white transition-all hover:from-purple-500 hover:to-violet-500 hover:shadow-[0_0_35px_rgba(168,85,247,0.5)]">
+                <span>Send Project Inquiry</span>
+                <i data-lucide="send" class="h-4 w-4 transition-transform group-hover:translate-x-1"></i>
+              </button>
+            </form>
+
+            <div id="formSuccess" class="hidden py-16 text-center space-y-4">
+              <div class="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">
+                <i data-lucide="check-circle-2" class="h-8 w-8"></i>
+              </div>
+              <h3 class="font-heading text-2xl font-bold text-white uppercase">Inquiry Received!</h3>
+              <p class="text-sm text-neutral-400 max-w-md mx-auto">
+                Thank you for reaching out! Shreehari will review your requirements and respond within 24 hours.
+              </p>
+              <button onclick="resetForm()" class="mt-4 rounded-full border border-purple-500/30 bg-[#090312] px-6 py-2.5 text-xs font-mono text-white hover:border-purple-400">
+                Send Another Message
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="relative w-full bg-[#06010d] pt-20 pb-12 border-t border-purple-500/15 overflow-hidden text-neutral-400">
+    <div class="mx-auto max-w-7xl px-6 md:px-10">
+      <div class="text-center py-10 select-none">
+        <h1 class="font-heading text-6xl sm:text-8xl md:text-9xl lg:text-[10.5rem] font-black uppercase tracking-tighter text-white/90 hover:text-purple-300 transition-colors duration-700">
+          SHREEHARI
+        </h1>
+        <p class="mt-2 text-xs sm:text-sm font-mono tracking-[0.25em] text-purple-300 uppercase">
+          Graphic Designer • Video Creator • Visual Storyteller
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 py-12 border-y border-purple-500/15 text-xs font-mono">
+        <div class="space-y-3">
+          <span class="text-white font-bold uppercase tracking-wider block">STUDIO</span>
+          <p class="text-neutral-400 leading-relaxed">
+            Based in Mumbai & Pune, collaborating with forward-thinking directors, brands, and creators worldwide.
+          </p>
+          <span class="text-emerald-400 block text-[11px]">● Open for 2026 Commissions</span>
+        </div>
+
+        <div class="space-y-2">
+          <span class="text-white font-bold uppercase tracking-wider block mb-3">NAVIGATION</span>
+          <div class="flex flex-col gap-2">
+            <a href="#home" class="hover:text-purple-300 transition-colors">01. Home</a>
+            <a href="#about" class="hover:text-purple-300 transition-colors">02. About Shreehari</a>
+            <a href="#work" class="hover:text-purple-300 transition-colors">03. Social Media Work</a>
+            <a href="#services" class="hover:text-purple-300 transition-colors">04. Services</a>
+            <a href="#experience" class="hover:text-purple-300 transition-colors">05. Experience</a>
+            <a href="#contact" class="hover:text-purple-300 transition-colors">06. Contact</a>
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <span class="text-white font-bold uppercase tracking-wider block mb-3">CHANNELS</span>
+          <div class="flex flex-col gap-2">
+            <a href="https://instagram.com" target="_blank" rel="noreferrer" class="hover:text-purple-300 transition-colors">Instagram ↗</a>
+            <a href="https://youtube.com" target="_blank" rel="noreferrer" class="hover:text-purple-300 transition-colors">YouTube ↗</a>
+            <a href="https://behance.net" target="_blank" rel="noreferrer" class="hover:text-purple-300 transition-colors">Behance Portfolio ↗</a>
+            <a href="https://vimeo.com" target="_blank" rel="noreferrer" class="hover:text-purple-300 transition-colors">Vimeo Pro ↗</a>
+            <a href="https://linkedin.com" target="_blank" rel="noreferrer" class="hover:text-purple-300 transition-colors">LinkedIn ↗</a>
+          </div>
+        </div>
+
+        <div class="flex flex-col justify-between items-start md:items-end">
+          <div>
+            <span class="text-white font-bold uppercase tracking-wider block mb-2">INQUIRIES</span>
+            <a href="mailto:shreeharichougule.design@gmail.com" class="text-purple-300 hover:underline block break-all">
+              shreeharichougule.design@gmail.com
+            </a>
+          </div>
+
+          <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="mt-6 inline-flex items-center gap-2 rounded-full border border-white/20 bg-neutral-900 px-4 py-2 text-white hover:border-purple-400 hover:bg-purple-600 hover:text-white transition-all">
+            <span>Back to Top</span>
+            <i data-lucide="arrow-up" class="h-3.5 w-3.5"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] font-mono text-neutral-500">
+        <div>© 2026 Shreehari Chougule. All Rights Reserved.</div>
+        <div class="text-neutral-400">Creative Direction & Video Editing Portfolio.</div>
+        <div>BFA ART STUDIES • MIT-WPU</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FULLSCREEN PROJECT MODAL -->
+  <div id="projectModal" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-[#06010c]/90 p-4 sm:p-6 md:p-10 backdrop-blur-2xl overflow-y-auto">
+    <div class="fixed inset-0" onclick="closeProjectModal()"></div>
+    <div class="relative z-10 my-auto w-full max-w-5xl rounded-3xl border border-purple-500/30 bg-[#11051d] shadow-[0_0_80px_rgba(0,0,0,0.9)] overflow-hidden">
+      
+      <!-- Modal Top Header -->
+      <div class="flex items-center justify-between border-b border-purple-500/20 bg-[#18072b]/95 px-6 py-4 backdrop-blur-md">
+        <div class="flex items-center gap-3">
+          <span id="modalCategory" class="rounded-full bg-purple-500/15 border border-purple-400/30 px-3 py-1 text-xs font-mono font-semibold text-purple-300">Category</span>
+          <span id="modalYear" class="text-xs font-mono text-purple-300/70">2024</span>
+        </div>
+        <button onclick="closeProjectModal()" class="flex h-9 w-9 items-center justify-center rounded-full border border-purple-500/20 bg-[#240b3b] text-purple-200 hover:bg-[#341154] hover:text-white transition-colors">
+          <i data-lucide="x" class="h-5 w-5"></i>
+        </button>
+      </div>
+
+      <!-- Modal Body -->
+      <div class="max-h-[80vh] overflow-y-auto p-6 sm:p-8 space-y-8">
+        <div id="modalMediaContainer" class="relative aspect-video w-full rounded-2xl overflow-hidden border border-purple-500/20 bg-[#08020f]">
+          <!-- Injected via JS -->
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 pt-4 border-t border-purple-500/15">
+          <div class="lg:col-span-7 space-y-4">
+            <h2 id="modalTitle" class="font-heading text-2xl sm:text-3xl font-bold uppercase text-white tracking-tight">Project Title</h2>
+            <p id="modalDescription" class="text-sm sm:text-base text-purple-100/80 leading-relaxed font-light">Project description...</p>
+            
+            <div class="pt-4 space-y-2">
+              <h4 class="text-xs font-mono uppercase tracking-wider text-purple-300/70">Key Deliverables</h4>
+              <div id="modalDeliverables" class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-purple-200"></div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-5 space-y-6 bg-[#18072b]/60 p-6 rounded-2xl border border-purple-500/20">
+            <div>
+              <h4 class="text-xs font-mono uppercase tracking-wider text-purple-300/70 mb-2.5">Tools & Skills</h4>
+              <div id="modalTechStack" class="flex flex-wrap gap-2"></div>
+            </div>
+
+            <div class="border-t border-purple-500/15 pt-4 text-xs font-mono text-purple-300/60">
+              <span>Creator: </span>
+              <span class="text-white font-semibold">Shreehari Chougule</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- APPLICATION SCRIPTS -->
+  <script>
+    const projects = [
+      {
+        id: 'social-media-collection',
+        title: 'SOCIAL MEDIA COLLECTION & CAMPAIGNS',
+        category: 'Social Media',
+        categoryLabel: '1. Social Media',
+        year: '2024',
+        description: 'High-impact social media creatives, festival campaigns, luxury product showcases, and real estate visual branding crafted for maximum digital engagement, CTR, and brand recall.',
+        longDescription: 'High-impact social media creatives, festival campaigns, luxury product showcases, and real estate visual branding crafted for maximum digital engagement, CTR, and brand recall. Features festival campaigns for Ariana Home (Ganesh Chaturthi, Happy Dhanteras, Gandhi Jayanti, Navratri, Happy Onam, Happy New Year, Independence Day) and luxury real estate branding for Kundan Spaces (Pearls of Luxury, Eternia 2.0).',
+        technology: ['Adobe Photoshop', 'Adobe Illustrator', 'Creative Direction', 'Social Campaign Strategy'],
+        thumbnail: 'assets/projects/detailed/instagram_posts_grid.jpg',
+        deliverables: ['Festival & Campaign Post Suites', 'Luxury Product Showcases', 'Real Estate Visual Branding', 'High-CTR Social Creatives']
+      },
+      {
+        id: 'nexaedge-branding',
+        title: 'BRAND IDENTITY & PACKAGING SUITE',
+        category: 'Branding',
+        categoryLabel: '2. Branding',
+        year: '2024',
+        description: 'A strong brand is more than just a logo—it\'s an identity. I create cohesive and memorable brand designs that reflect your vision, connect with your audience, and leave a lasting impression. From logos to brand elements, every detail is crafted for impact.',
+        longDescription: 'A strong brand is more than just a logo—it\'s an identity. I create cohesive and memorable brand designs that reflect your vision, connect with your audience, and leave a lasting impression. From logos to brand elements, every detail is crafted for impact. Includes complete corporate stationery, business cards, letterheads, branded packaging boxes with intricate motifs, and luxury gift suites.',
+        technology: ['Adobe Illustrator', 'Adobe Photoshop', 'Brand Manual', 'Print Setup'],
+        thumbnail: 'assets/projects/detailed/branding_stationery.jpg',
+        deliverables: ['Corporate Stationery Suite', 'Luxury Gift Packaging', 'Brand Guidelines Manual', 'Business Cards & Letterheads']
+      },
+      {
+        id: 'social-media-posts',
+        title: 'SOCIAL MEDIA CREATIVES & INSTAGRAM POSTS',
+        category: 'Print',
+        categoryLabel: '3. Social Media',
+        year: '2024',
+        description: 'Captivating visuals designed to elevate your brand! My static social media creatives are crafted to grab attention, communicate messages effectively, and enhance engagement. Every design is a blend of strategy and aesthetics, ensuring a strong and lasting impact.',
+        longDescription: 'Captivating visuals designed to elevate your brand! My static social media creatives are crafted to grab attention, communicate messages effectively, and enhance engagement. Every design is a blend of strategy and aesthetics, ensuring a strong and lasting impact. Features festival creatives (Maha Shivratri, Happy Onam, Happy New Year, Ganesh Chaturthi), healthcare & nutraceutical gummies product ads, and corporate LinkedIn banners.',
+        technology: ['Adobe Photoshop', 'Adobe Illustrator', 'Typography', 'Color Harmony'],
+        thumbnail: 'assets/projects/detailed/instagram_posts_grid.jpg',
+        deliverables: ['16+ Instagram Grid Creatives', '4+ LinkedIn Thought-Leadership Banners', 'Festival & Promotional Templates', 'High-CTR Ad Visuals']
+      },
+      {
+        id: 'packaging-print-suite',
+        title: 'PACKAGING & BROCHURE DESIGNS',
+        category: 'Print',
+        categoryLabel: '4. Print Media',
+        year: '2024',
+        description: 'Eye-catching, functional, and brand-focused—my packaging designs make products stand out and leave a lasting impression. Clean, engaging brochure designs that create a strong first impression.',
+        longDescription: 'Eye-catching, functional, and brand-focused—my packaging designs make products stand out and leave a lasting impression. Includes multi-fold corporate brochures, Indian sweets/mithai packaging boxes with rich red and gold motifs, incense/fragrance gift packaging, and product catalogs.',
+        technology: ['Adobe InDesign', 'Adobe Illustrator', 'Adobe Photoshop', '3D Mockup'],
+        thumbnail: 'assets/projects/detailed/packaging_boxes_grid.jpg',
+        deliverables: ['Print-Ready Die-Lines (CMYK)', 'Luxury Mithai & Sweet Boxes', 'Multi-Fold Corporate Brochures', 'Product Catalogs']
+      },
+      {
+        id: 'lonza-web-experience',
+        title: 'WEBSITE LANDING PAGE — LONZA & UC-II',
+        category: 'UI/Web',
+        categoryLabel: '5. Website Landing Page',
+        year: '2024',
+        description: 'Clean, engaging, and conversion-focused—my landing page designs create a strong first impression and drive results.',
+        longDescription: 'Clean, engaging, and conversion-focused—my landing page designs create a strong first impression and drive results. Created for Lonza / UC-II collagen health products, combining crisp typography, responsive layout hierarchy, clinical product benefit columns, and persuasive call-to-action buttons.',
+        technology: ['Figma', 'Adobe Photoshop', 'Adobe Illustrator', 'UI/UX Layout'],
+        thumbnail: 'assets/projects/detailed/lonza_laptop_landing.jpg',
+        deliverables: ['Full Desktop & Mobile Landing Page', 'Product Authority Hero Section', 'Conversion Funnel Layout', 'Interactive Component UI']
+      },
+      {
+        id: 'midnight-stories',
+        title: 'MIDNIGHT STORIES',
+        category: 'Cinematic',
+        categoryLabel: '6. Video Editing',
+        year: '2026',
+        description: 'A cinematic short film exploring loneliness, ambition, and the quiet moments between.',
+        longDescription: 'Midnight Stories is a mood-driven narrative short film. The editing focused on building suspense through rhythmic slow pacing, subtle sound design layers, and an anamorphic teal-and-amber film grade in DaVinci Resolve.',
+        technology: ['Premiere Pro', 'After Effects', 'DaVinci Resolve', 'Sound Design'],
+        thumbnail: 'assets/projects/video/midnight_stories_thumb.jpg',
+        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+        deliverables: ['Director Cut (08:30)', 'Theatrical Trailer (01:15)', 'Social Teasers (00:30)']
+      },
+      {
+        id: 'urban-motion',
+        title: 'URBAN MOTION',
+        category: 'Cinematic',
+        categoryLabel: 'Commercial / Brand Film',
+        year: '2025',
+        description: 'A high-energy visual campaign combining fast-paced editing, motion graphics, and cinematic transitions.',
+        longDescription: 'Created for a premier streetwear and urban lifestyle brand. This edit features seamless whip pans, speed ramping synced to 138 BPM trap percussion, kinetic 3D typography rendered in Blender, and dynamic sound design.',
+        technology: ['Premiere Pro', 'After Effects', 'Blender 3D'],
+        thumbnail: 'assets/projects/video/urban_motion_thumb.jpg',
+        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+        deliverables: ['4K Commercial (00:60)', 'Instagram Cut (00:30)', 'TikTok 9:16 (00:15)']
+      },
+      {
+        id: '30-seconds',
+        title: '30 SECONDS',
+        category: 'Reels',
+        categoryLabel: 'Social Media Campaign',
+        year: '2025',
+        description: 'A collection of short-form videos designed for maximum retention and engagement on social media.',
+        longDescription: 'Engineered specifically for short-attention spans on Instagram Reels and TikTok. Using psychology-based retention hooks in the first 2 seconds, punch-in zooms, bespoke animated subtitles, sound effect risers, and high-contrast color styling.',
+        technology: ['Premiere Pro', 'After Effects', 'CapCut'],
+        thumbnail: 'assets/projects/video/30_seconds_thumb.jpg',
+        videoUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+        deliverables: ['12x Vertical Reels', 'Bespoke Subtitle Presets', 'Audio Hook Library']
+      }
+    ];
+
+    const services = [
+      { num: '01', title: 'Brand Identity', icon: 'fingerprint', desc: 'Building distinctive visual identities that make brands recognizable, consistent, and memorable.', list: ['Logo Design & Visual Identity', 'Brand Guidelines', 'Typography & Color Systems', 'Brand Applications'] },
+      { num: '02', title: 'Graphic Design', icon: 'pen-tool', desc: 'Strategic visual design for digital, print, campaigns, and brand communication.', list: ['Social Media Creatives', 'Campaign & Advertising Design', 'Packaging Design', 'Marketing Collaterals'] },
+      { num: '03', title: 'Motion Design', icon: 'layers', desc: 'Dynamic motion graphics that bring brands, ideas, and visual communication to life.', list: ['Kinetic Typography', 'Logo Animation', '2.5D & Motion Graphics', 'Visual Effects & Transitions'] },
+      { num: '04', title: 'Video Editing', icon: 'film', desc: 'Professional video editing built around strong storytelling, pacing, and visual rhythm.', list: ['YouTube & Brand Films', 'Multi-Cam Editing', 'B-Roll Integration', 'Color Correction & Sound Sync'] },
+      { num: '05', title: 'AI Video Production', icon: 'sparkles', desc: 'AI-powered visual production combining creative direction, generative visuals, and cinematic storytelling.', list: ['AI Video Generation', 'AI Product Visuals', 'Image-to-Video Animation', 'AI-Assisted Creative Production'] },
+      { num: '06', title: 'Social Media Content', icon: 'smartphone', desc: 'Platform-focused content designed to capture attention, communicate quickly, and strengthen brand presence.', list: ['Reels & Short-Form Videos', 'Social Media Campaigns', 'Carousel & Static Creatives', 'Content Adaptation & Formats'] }
+    ];
+
+    const processSteps = [
+      { num: '01', title: 'UNDERSTAND', short: 'Story, Audience & Direction', full: 'Understanding the story, audience, and creative direction. We dissect the creative brief, analyze the emotional core, and establish visual tone and color palette.', action: 'Creative brief analysis & moodboarding', deliverable: 'Visual direction & pacing guideline' },
+      { num: '02', title: 'SELECT', short: 'Organizing & Hero Shots', full: 'Organizing footage and selecting the strongest shots. Ingesting raw rushes, syncing multi-track audio, and cherry-picking hero takes.', action: 'Rushes logging & audio sync', deliverable: 'Organized project & selected selects' },
+      { num: '03', title: 'EDIT', short: 'Pacing, Rhythm & Transitions', full: 'Building the story through pacing, rhythm, and transitions. Precision assembly, cutting on action, fine-tuning beats, and ensuring emotional flow.', action: 'Rough cut & rhythmic fine cut', deliverable: 'Locked cut (Picture Lock)' },
+      { num: '04', title: 'ENHANCE', short: 'Color, Motion & Sound FX', full: 'Adding color grading, motion graphics, sound design, and visual effects. Applying DaVinci color grading, After Effects motion graphics, and audio cleanup.', action: 'Color grade, VFX & audio mixing', deliverable: 'Graded & mixed master candidate' },
+      { num: '05', title: 'DELIVER', short: 'Final QC & Platform Delivery', full: 'Final quality control and exporting content optimized for its platform. Generating crisp 4K ProRes/MP4 masters and tailored format exports.', action: 'Quality check & platform optimization', deliverable: 'Final 4K masters & source archives' }
+    ];
+
+    // Tools with exact text from PDF:
+    const tools = [
+      { name: 'Adobe Illustrator', cat: 'Ai', prof: 'Master', color: '#FF9A00', code: 'Ai', badge: 'Design, Vector Illustrations, Logos etc' },
+      { name: 'Adobe Photoshop', cat: 'Ps', prof: 'Master', color: '#31A8FF', code: 'Ps', badge: 'Design, Illustrations, Photo Editing etc' },
+      { name: 'Adobe After Effects', cat: 'Ae', prof: 'Advanced', color: '#D291FF', code: 'Ae', badge: 'Animations, Reels, Ui Animations etc' },
+      { name: 'Adobe Premier Pro', cat: 'Pr', prof: 'Master', color: '#9999FF', code: 'Pr', badge: 'Video Editing' },
+      { name: 'Blender 3D', cat: '3D', prof: 'Proficient', color: '#F5792A', code: '3D', badge: 'Video Editing & 3D' },
+      { name: 'DaVinci Resolve', cat: 'Color', prof: 'Advanced', color: '#FF764D', code: 'Dv', badge: 'Color Grading & Film LUTs' },
+      { name: 'CapCut', cat: 'Reels', prof: 'Master', color: '#00F2FE', code: 'Cc', badge: 'Short-Form Retention Editing' },
+      { name: 'Adobe InDesign', cat: 'Print', prof: 'Master', color: '#FF3366', code: 'Id', badge: 'Brochures & Packaging Die-Lines' }
+    ];
+
+    const skills = [
+      'Video Editing', 'Color Grading', 'Motion Graphics', 'Visual Effects', 'Sound Design', 'Storytelling',
+      'Cinematic Editing', 'Short-Form Editing', 'YouTube Editing', 'Commercial Editing', 'Branding & Logofolio',
+      'Packaging Design', 'Brochure Designs', 'Menu-Card Designs', 'Website Landing Pages', 'Social Media Creatives'
+    ];
+
+    // Experience with exact dates and info from PDF:
+    const timeline = [
+      { role: 'Senior Graphic Designer', company: 'Digitally Bugged · Full-time', period: 'Feb 2024 - Present · 1 yr 1 mo', type: 'Full-time', loc: 'Mumbai, Maharashtra, India · Remote', desc: 'Leading creative design, brand identity systems, social media creatives, print media, packaging, and high-impact digital video content for brands.' },
+      { role: 'Graphic Designer', company: 'Rhetorica-Politik · Full-time', period: 'Nov 2022 - Nov 2023 · 1 yr 1 mo', type: 'Full-time', loc: 'Pune, Maharashtra, India · Hybrid', desc: 'Designed visual campaigns, political & corporate creatives, brochures, banners, infographics, and dynamic video teasers.' },
+      { role: 'Graphic Designer', company: 'SocialChamps Media Pvt. Ltd. · Full-time', period: 'Aug 2021 - Jan 2022 · 6 mos', type: 'Full-time', loc: 'Bavdhan Khurd, Pune, Maharashtra, India', desc: 'Executed static social media creatives, Instagram posts, LinkedIn banners, and promotional animated videos for diverse agency clients.' },
+      { role: 'Freelance Video Editor & Visual Storyteller', company: 'Independent Studio', period: '2020 — Present', type: 'Freelance', loc: 'Global (Remote)', desc: 'Editing cinematic short films, high-retention social reels, commercials, and brand documentaries for creators, directors, and brands worldwide.' },
+      { role: 'Bachelor of Fine Arts - BFA, Art / Art Studies, General', company: 'MIT World Peace University', period: 'May 2022 - May 2023 · Grade: A+', type: 'Education', loc: 'Pune, India', desc: 'Graduated with Grade: A+. Specialized in fine arts, visual composition, digital media, color theory, and aesthetic philosophy.' },
+      { role: 'GD Art — applied art (4-Year Program)', company: "BKP Sabha's Abhinav Kala Maha Vidyalaya", period: '2018 - 2022', type: 'Education', loc: 'Pune, India', desc: 'Rigorous 4-year foundation in traditional applied art, typography, advertising layout, illustration, and spatial balance.' }
+    ];
+
+    const reels = [
+      { title: 'Motion Graphics & UI Transitions', cat: 'After Effects', spec: '1080x1920 (9:16)', thumb: 'assets/projects/video/reel_01.jpg', platform: 'Reel' },
+      { title: 'Cinematic Color Grading & Film Look', cat: 'DaVinci Resolve', spec: 'Film LUT / 24FPS', thumb: 'assets/projects/video/reel_02.jpg', platform: 'Reel' },
+      { title: 'Kinetic Typography & Dynamic Titles', cat: 'Motion Design', spec: 'After Effects', thumb: 'assets/projects/video/reel_03.jpg', platform: 'Short' },
+      { title: 'Streetwear Brand Commercial Promo', cat: 'Video Editing', spec: 'Premiere Pro', thumb: 'assets/projects/video/reel_04.jpg', platform: 'Promo' },
+      { title: 'High-Pacing Video Cutdown & Sync', cat: 'Social Content', spec: 'Rhythmic Cuts', thumb: 'assets/projects/video/reel_05.jpg', platform: 'Reel' },
+      { title: 'Sound Design, Foley & VFX Drop', cat: 'Post-Production', spec: 'Spatial Audio', thumb: 'assets/projects/video/reel_06.jpg', platform: 'Short' }
+    ];
+
+    // Render Projects
+    function renderProjects(filter = 'All') {
+      const container = document.getElementById('projectsGrid');
+      const filtered = filter === 'All' ? projects : projects.filter(p => p.category === filter);
+      
+      container.innerHTML = filtered.map(p => `
+        <div onclick="openProjectModal('${p.id}')" class="group relative cursor-pointer rounded-3xl overflow-hidden border border-purple-500/20 bg-[#120722]/85 transition-all duration-500 hover:border-purple-400/60 hover:shadow-[0_10px_40px_rgba(147,51,234,0.25)] flex flex-col">
+          <div class="relative aspect-video w-full overflow-hidden bg-[#0d041a]">
+            <img src="${p.thumbnail}" alt="${p.title}" class="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
+            <div class="absolute inset-0 bg-gradient-to-t from-[#120722] via-transparent to-black/40 opacity-80 group-hover:opacity-60 transition-opacity"></div>
+            
+            <div class="absolute top-4 left-4 right-4 flex items-center justify-between pointer-events-none">
+              <span class="rounded-full bg-[#08020f]/80 backdrop-blur-md px-3 py-1 text-[11px] font-mono font-medium text-purple-300 border border-purple-500/30">${p.categoryLabel}</span>
+              <span class="rounded-full bg-[#08020f]/80 backdrop-blur-md px-2.5 py-1 text-[11px] font-mono text-purple-200/70 border border-purple-500/30">${p.year}</span>
+            </div>
+
+            <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 backdrop-blur-[2px] bg-black/40">
+              <div class="flex items-center gap-2 rounded-full bg-gradient-to-r from-purple-500 to-violet-500 px-5 py-2.5 text-xs font-bold text-white shadow-xl transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
+                <i data-lucide="eye" class="h-3.5 w-3.5"></i>
+                <span>${p.videoUrl ? 'Watch Video' : 'View Project'}</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-6 md:p-8 flex flex-col justify-between flex-1 space-y-4">
+            <div>
+              <h3 class="font-heading text-xl sm:text-2xl font-bold uppercase tracking-tight text-white group-hover:text-purple-300 transition-colors">
+                ${p.title}
+              </h3>
+              <p class="mt-2 text-xs sm:text-sm text-purple-200/70 line-clamp-2 leading-relaxed">
+                ${p.description}
+              </p>
+            </div>
+
+            <div class="pt-4 border-t border-purple-500/15 flex flex-wrap items-center justify-between gap-3">
+              <div class="flex flex-wrap gap-1.5">
+                ${p.technology.slice(0, 3).map(t => `<span class="rounded-md bg-[#1a0a30] px-2 py-0.5 text-[10px] font-mono text-purple-200/80 border border-purple-500/20">${t}</span>`).join('')}
+              </div>
+              <div class="flex items-center gap-1 text-xs font-mono font-semibold text-purple-300 group-hover:text-purple-200">
+                <span>Explore</span>
+                <span>→</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      `).join('');
+
+      lucide.createIcons();
+    }
+
+    function filterProjects(cat, btn) {
+      document.querySelectorAll('.filter-btn').forEach(b => {
+        b.className = 'filter-btn shrink-0 rounded-full px-4 py-2 text-xs font-medium bg-[#120722]/80 text-purple-200 hover:bg-[#1a0a30] hover:text-white border border-purple-500/20';
+      });
+      btn.className = 'filter-btn active shrink-0 rounded-full px-4 py-2 text-xs font-bold bg-gradient-to-r from-purple-600 to-violet-600 text-white shadow-[0_0_20px_rgba(168,85,247,0.4)] border border-purple-400';
+      renderProjects(cat);
+
+      const logoSec = document.getElementById('logofolioSection');
+      if (cat === 'Social Media' || cat === 'Logofolio' || cat === 'All') {
+        logoSec.style.display = 'block';
+      } else {
+        logoSec.style.display = 'none';
+      }
+    }
+
+    // Render Social Media Collection & Creatives
+    function renderLogofolio() {
+      const grid = document.getElementById('logosGrid');
+      const posts = [
+        { title: 'Ganesh Chaturthi', brand: 'Ariana Home', img: 'assets/projects/logos/logo_01.jpg' },
+        { title: 'Happy Dhanteras', brand: 'Ariana Home', img: 'assets/projects/logos/logo_02.jpg' },
+        { title: 'Gandhi Jayanti', brand: 'Swadesh Movement', img: 'assets/projects/logos/logo_03.jpg' },
+        { title: 'Happy Navratri', brand: 'Ariana Home', img: 'assets/projects/logos/logo_04.jpg' },
+        { title: 'Happy Onam', brand: 'Ariana Home', img: 'assets/projects/logos/logo_05.jpg' },
+        { title: 'Handcrafted Elegance', brand: 'Ariana Luxury', img: 'assets/projects/logos/logo_06.jpg' },
+        { title: 'Happy New Year', brand: 'Ariana Home', img: 'assets/projects/logos/logo_07.jpg' },
+        { title: 'Independence Day', brand: 'Ariana Home', img: 'assets/projects/logos/logo_08.jpg' },
+        { title: 'Pearls of Luxury', brand: 'Kundan Spaces', img: 'assets/projects/logos/logo_09.jpg' },
+        { title: 'Eternia 2.0', brand: 'Kundan Real Estate', img: 'assets/projects/logos/logo_10.jpg' }
+      ];
+
+      let html = '';
+      posts.forEach((p, idx) => {
+        const num = String(idx + 1).padStart(2, '0');
+        html += `
+          <div onclick="openProjectModal('social-media-collection')" class="cursor-pointer group relative aspect-square rounded-2xl overflow-hidden border border-purple-500/20 bg-[#120722] p-2 hover:border-purple-400/60 hover:shadow-[0_0_25px_rgba(168,85,247,0.3)] transition-all duration-300">
+            <img src="${p.img}" alt="${p.title}" class="h-full w-full object-cover rounded-xl transition-transform duration-500 group-hover:scale-105" />
+            
+            <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-[#120722]/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-3 rounded-2xl">
+              <span class="text-[9px] font-mono text-purple-300 uppercase tracking-widest font-semibold">${p.brand}</span>
+              <h4 class="text-xs font-bold text-white leading-snug">${p.title}</h4>
+              <div class="mt-1 flex items-center gap-1 text-[10px] text-purple-200 font-mono font-medium">
+                <span>View Campaign</span>
+                <span>↗</span>
+              </div>
+            </div>
+          </div>
+        `;
+      });
+      grid.innerHTML = html;
+    }
+
+    // Render Services
+    function renderServices() {
+      const grid = document.getElementById('servicesGrid');
+      grid.innerHTML = services.map(s => `
+        <div class="group relative rounded-3xl border border-purple-500/20 bg-[#120722]/85 p-8 transition-all duration-300 hover:border-purple-400/50 hover:bg-[#18072b]/90 hover:shadow-[0_10px_35px_rgba(147,51,234,0.2)] flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-8">
+              <div class="flex h-14 w-14 items-center justify-center rounded-2xl border border-purple-500/25 bg-[#1c0836] shadow-inner group-hover:border-purple-400/40 group-hover:bg-purple-600/20 transition-colors">
+                <i data-lucide="${s.icon}" class="h-6 w-6 text-purple-300"></i>
+              </div>
+              <span class="font-mono text-xl font-bold text-purple-500/40 group-hover:text-purple-400/80 transition-colors">${s.num}</span>
+            </div>
+            <h3 class="font-heading text-xl sm:text-2xl font-bold text-white uppercase tracking-tight mb-2 group-hover:text-purple-200 transition-colors">${s.title}</h3>
+            <p class="text-xs sm:text-sm text-purple-200/70 leading-relaxed mb-6">${s.desc}</p>
+          </div>
+          <div class="pt-6 border-t border-purple-500/15 space-y-2">
+            <span class="text-[10px] font-mono uppercase tracking-widest text-purple-300/60 block mb-2">Key Deliverables</span>
+            ${s.list.map(l => `<div class="flex items-center gap-2 text-xs text-purple-100/90"><i data-lucide="check-circle-2" class="h-3 w-3 text-purple-400 shrink-0"></i><span>${l}</span></div>`).join('')}
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // Render Process
+    let curProcessIdx = 0;
+    function renderProcess() {
+      const btnsContainer = document.getElementById('processButtons');
+      btnsContainer.innerHTML = processSteps.map((st, i) => `
+        <button onclick="setProcessStep(${i})" class="process-btn text-left p-5 rounded-2xl border transition-all duration-300 ${i === curProcessIdx ? 'border-purple-400 bg-[#1e0a38] shadow-[0_0_25px_rgba(168,85,247,0.25)]' : 'border-purple-500/15 bg-[#120722]/70 hover:border-purple-400/30 hover:bg-[#1a0a30]'}">
+          <div class="flex items-center justify-between mb-3">
+            <span class="font-mono text-sm font-bold ${i === curProcessIdx ? 'text-purple-300' : 'text-purple-500/60'}">${st.num}</span>
+            <span class="text-[10px] font-mono text-purple-400/60">STEP ${i+1}/5</span>
+          </div>
+          <h4 class="font-heading text-lg font-bold text-white uppercase tracking-tight mb-1">${st.title}</h4>
+          <p class="text-xs text-purple-200/60 truncate">${st.short}</p>
+        </button>
+      `).join('');
+
+      const activeCard = document.getElementById('activeProcessCard');
+      const st = processSteps[curProcessIdx];
+      activeCard.innerHTML = `
+        <span class="absolute -right-6 -bottom-10 font-heading text-9xl md:text-[14rem] font-black text-purple-500/5 select-none pointer-events-none">${st.num}</span>
+        <div class="relative z-10 max-w-3xl space-y-6">
+          <div class="inline-flex items-center gap-2 rounded-full bg-purple-500/15 border border-purple-400/30 px-3 py-1 text-xs font-mono font-semibold text-purple-300">
+            <span>PHASE ${st.num} — ${st.title}</span>
+          </div>
+          <h3 class="font-heading text-3xl sm:text-4xl font-extrabold text-white uppercase tracking-tight">${st.title}: ${st.short}</h3>
+          <p class="text-base sm:text-lg text-purple-100/90 leading-relaxed font-light">${st.full}</p>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4 border-t border-purple-500/15">
+            <div class="p-4 rounded-xl bg-[#0b0314]/80 border border-purple-500/20 space-y-1">
+              <span class="text-[10px] font-mono uppercase tracking-widest text-purple-300 block">Core Execution Action</span>
+              <span class="text-xs sm:text-sm font-medium text-purple-100">${st.action}</span>
+            </div>
+            <div class="p-4 rounded-xl bg-[#0b0314]/80 border border-purple-500/20 space-y-1">
+              <span class="text-[10px] font-mono uppercase tracking-widest text-purple-300 block">Stage Deliverable</span>
+              <span class="text-xs sm:text-sm font-medium text-purple-100">${st.deliverable}</span>
+            </div>
+          </div>
+        </div>
+      `;
+      lucide.createIcons();
+    }
+
+    function setProcessStep(idx) {
+      curProcessIdx = idx;
+      renderProcess();
+    }
+
+    // Render Tools & Skills (With exact PDF descriptions)
+    function renderToolsSkills() {
+      const toolsGrid = document.getElementById('toolsGrid');
+      toolsGrid.innerHTML = tools.map(t => `
+        <div class="group relative rounded-2xl border border-purple-500/20 bg-[#120722]/80 p-6 backdrop-blur-md transition-all duration-300 hover:border-purple-400/50 hover:bg-[#1a0a30]">
+          <div class="flex items-center justify-between mb-6">
+            <div class="flex h-12 w-12 items-center justify-center rounded-xl font-heading text-lg font-black border border-purple-500/20" style="background-color: ${t.color}15; color: ${t.color};">
+              ${t.code}
+            </div>
+            <span class="text-[10px] font-mono uppercase text-purple-300 bg-purple-500/15 px-2.5 py-0.5 rounded-full border border-purple-400/30">${t.prof}</span>
+          </div>
+          <h3 class="font-heading text-lg font-bold text-white uppercase tracking-tight group-hover:text-purple-200 transition-colors">${t.name}</h3>
+          <div class="pt-3 mt-3 border-t border-purple-500/15 text-[11px] text-purple-200/80 font-medium">✦ ${t.badge}</div>
+        </div>
+      `).join('');
+
+      const skillsCloud = document.getElementById('skillsCloud');
+      skillsCloud.innerHTML = skills.map(s => `
+        <span class="inline-flex items-center gap-2 rounded-full border border-purple-500/20 bg-[#120722]/90 px-4 py-2 text-xs font-medium text-purple-100 hover:border-purple-400 hover:text-white hover:bg-[#1f0b3b] transition-all cursor-default">
+          <span class="h-1.5 w-1.5 rounded-full bg-purple-400"></span>
+          <span>${s}</span>
+        </span>
+      `).join('');
+    }
+
+    // Render Timeline (From PDF)
+    function renderTimeline() {
+      const c = document.getElementById('timelineContainer');
+      c.innerHTML = timeline.map(item => `
+        <div class="relative group">
+          <div class="absolute -left-[33px] md:-left-[49px] top-1.5 flex h-6 w-6 items-center justify-center rounded-full border-2 border-purple-400 bg-[#08020f] group-hover:scale-125 transition-transform shadow-[0_0_15px_rgba(168,85,247,0.6)]">
+            <span class="h-2 w-2 rounded-full bg-purple-400"></span>
+          </div>
+          <div class="rounded-3xl border border-purple-500/20 bg-[#120722]/85 p-6 md:p-8 backdrop-blur-md transition-all duration-300 hover:border-purple-400/40 hover:bg-[#1a0a30]">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-4">
+              <div>
+                <span class="inline-block rounded-md bg-purple-500/15 px-2.5 py-0.5 text-xs font-mono font-semibold text-purple-300 border border-purple-400/30 mb-2">${item.type}</span>
+                <h3 class="font-heading text-xl sm:text-2xl font-bold text-white uppercase tracking-tight">${item.role}</h3>
+                <h4 class="text-sm font-semibold text-purple-200/90 flex items-center gap-1.5 mt-0.5">
+                  <i data-lucide="building-2" class="h-3.5 w-3.5 text-purple-400"></i>
+                  <span>${item.company}</span>
+                </h4>
+              </div>
+              <div class="text-left sm:text-right text-xs font-mono text-purple-300/70 space-y-1">
+                <div class="flex items-center sm:justify-end gap-1.5 text-purple-200">
+                  <i data-lucide="calendar" class="h-3.5 w-3.5 text-purple-400"></i>
+                  <span>${item.period}</span>
+                </div>
+                <div class="flex items-center sm:justify-end gap-1.5">
+                  <i data-lucide="map-pin" class="h-3.5 w-3.5 text-purple-400/60"></i>
+                  <span>${item.loc}</span>
+                </div>
+              </div>
+            </div>
+            <p class="text-xs sm:text-sm text-purple-100/80 leading-relaxed">${item.desc}</p>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // Render Reels
+    function renderReels() {
+      const g = document.getElementById('reelsGrid');
+      g.innerHTML = reels.map(r => `
+        <div onclick="openProjectModal('30-seconds')" class="group relative aspect-[9/16] rounded-2xl overflow-hidden border border-purple-500/20 bg-[#120722] cursor-pointer transition-all duration-500 hover:border-purple-400 hover:shadow-[0_10px_30px_rgba(168,85,247,0.3)] hover:-translate-y-1.5 flex flex-col justify-between p-4">
+          <img src="${r.thumb}" alt="${r.title}" class="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-110 filter brightness-90 group-hover:brightness-100" />
+          <div class="absolute inset-0 bg-gradient-to-t from-[#08020f] via-black/40 to-black/60 opacity-80 group-hover:opacity-60 transition-opacity"></div>
+          
+          <div class="relative z-10 flex items-center justify-between">
+            <span class="rounded-md bg-[#08020f]/80 backdrop-blur-md px-2 py-0.5 text-[9px] font-mono font-semibold text-purple-300 border border-purple-500/30">${r.platform}</span>
+            <span class="text-[10px] font-mono text-purple-200/80 bg-[#08020f]/80 px-1.5 py-0.5 rounded backdrop-blur-md">${r.spec}</span>
+          </div>
+
+          <div class="relative z-10 mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-r from-purple-500 to-violet-500 text-white shadow-lg opacity-0 scale-75 group-hover:opacity-100 group-hover:scale-100 transition-all duration-300">
+            <i data-lucide="play" class="h-5 w-5 fill-current ml-0.5"></i>
+          </div>
+
+          <div class="relative z-10 space-y-1">
+            <span class="text-[10px] font-mono uppercase tracking-wider text-purple-300 block">${r.cat}</span>
+            <h4 class="font-heading text-xs font-bold text-white uppercase tracking-tight line-clamp-2">${r.title}</h4>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // Modal Operations
+    function openProjectModal(id) {
+      const p = projects.find(x => x.id === id);
+      if (!p) return;
+
+      document.getElementById('modalCategory').innerText = p.categoryLabel;
+      document.getElementById('modalYear').innerText = `YEAR: ${p.year}`;
+      document.getElementById('modalTitle').innerText = p.title;
+      document.getElementById('modalDescription').innerText = p.longDescription || p.description;
+
+      const media = document.getElementById('modalMediaContainer');
+      if (p.videoUrl) {
+        media.innerHTML = `
+          <video controls autoplay playsinline poster="${p.thumbnail}" class="h-full w-full object-cover">
+            <source src="${p.videoUrl}" type="video/mp4" />
+          </video>
+        `;
+      } else {
+        media.innerHTML = `<img src="${p.thumbnail}" alt="${p.title}" class="h-full w-full object-cover" />`;
+      }
+
+      const deliv = document.getElementById('modalDeliverables');
+      if (p.deliverables) {
+        deliv.innerHTML = p.deliverables.map(d => `<div class="flex items-center gap-2"><i data-lucide="check-circle-2" class="h-3.5 w-3.5 text-purple-400"></i><span>${d}</span></div>`).join('');
+      } else {
+        deliv.innerHTML = '';
+      }
+
+      const tech = document.getElementById('modalTechStack');
+      tech.innerHTML = p.technology.map(t => `<span class="rounded-lg border border-purple-500/20 bg-[#240b3b] px-2.5 py-1 text-xs font-medium text-purple-200">${t}</span>`).join('');
+
+      document.getElementById('projectModal').classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+      lucide.createIcons();
+    }
+
+    function closeProjectModal() {
+      document.getElementById('projectModal').classList.add('hidden');
+      document.body.style.overflow = 'auto';
+      const v = document.querySelector('#modalMediaContainer video');
+      if (v) v.pause();
+    }
+
+    // Sound toggle
+    let isHeroMuted = true;
+    function toggleHeroSound() {
+      const v = document.getElementById('heroVideo');
+      const icon = document.getElementById('soundIcon');
+      const text = document.getElementById('soundText');
+      isHeroMuted = !isHeroMuted;
+      v.muted = isHeroMuted;
+      if (isHeroMuted) {
+        text.innerText = 'SOUND OFF';
+        icon.setAttribute('data-lucide', 'volume-x');
+      } else {
+        text.innerText = 'SOUND ON';
+        icon.setAttribute('data-lucide', 'volume-2');
+      }
+      lucide.createIcons();
+    }
+
+    // Mobile nav
+    let isMenuOpen = false;
+    function toggleMobileMenu() {
+      isMenuOpen = !isMenuOpen;
+      const drawer = document.getElementById('mobileDrawer');
+      if (isMenuOpen) {
+        drawer.classList.remove('hidden');
+      } else {
+        drawer.classList.add('hidden');
+      }
+    }
+    document.getElementById('mobileMenuBtn').onclick = toggleMobileMenu;
+
+    // Contact Form
+    let selectedBudgetTier = '$1,000 - $3,000';
+    function selectBudget(btn, val) {
+      document.querySelectorAll('.budget-btn').forEach(b => {
+        b.className = 'budget-btn rounded-xl border border-purple-500/20 bg-[#120722] py-2.5 px-2 text-xs font-mono text-center text-purple-200/70 hover:border-purple-400/40 hover:text-white';
+      });
+      btn.className = 'budget-btn active rounded-xl border border-purple-400 bg-purple-600/20 py-2.5 px-2 text-xs font-mono text-center text-purple-200 font-bold shadow-[0_0_15px_rgba(168,85,247,0.2)]';
+      selectedBudgetTier = val;
+    }
+
+    function handleFormSubmit(e) {
+      e.preventDefault();
+      document.getElementById('inquiryForm').classList.add('hidden');
+      document.getElementById('formSuccess').classList.remove('hidden');
+      lucide.createIcons();
+    }
+
+    function resetForm() {
+      document.getElementById('inquiryForm').reset();
+      document.getElementById('inquiryForm').classList.remove('hidden');
+      document.getElementById('formSuccess').classList.add('hidden');
+    }
+
+    function copyEmail() {
+      navigator.clipboard.writeText('shreeharichougule.design@gmail.com');
+      const icon = document.getElementById('copyIcon');
+      icon.setAttribute('data-lucide', 'check');
+      lucide.createIcons();
+      setTimeout(() => {
+        icon.setAttribute('data-lucide', 'copy');
+        lucide.createIcons();
+      }, 2500);
+    }
+
+    // Scroll Navbar Effect
+    window.addEventListener('scroll', () => {
+      const nav = document.getElementById('mainNav');
+      if (window.scrollY > 40) {
+        nav.classList.add('glass-nav', 'py-3.5', 'border-b', 'border-white/10', 'shadow-2xl');
+        nav.classList.remove('py-5');
+      } else {
+        nav.classList.remove('glass-nav', 'py-3.5', 'border-b', 'border-white/10', 'shadow-2xl');
+        nav.classList.add('py-5');
+      }
+    });
+
+    // Canvas Grain Generator
+    const canvas = document.getElementById('grainCanvas');
+    if (canvas) {
+      const ctx = canvas.getContext('2d');
+      let w = (canvas.width = window.innerWidth / 2);
+      let h = (canvas.height = window.innerHeight / 2);
+
+      window.addEventListener('resize', () => {
+        w = canvas.width = window.innerWidth / 2;
+        h = canvas.height = window.innerHeight / 2;
+      });
+
+      function loopGrain() {
+        const imgData = ctx.createImageData(w, h);
+        const data = imgData.data;
+        const buf = new Uint32Array(data.buffer);
+        const len = buf.length;
+        for (let i = 0; i < len; i++) {
+          if (Math.random() < 0.1) {
+            const val = Math.floor(Math.random() * 255);
+            buf[i] = (14 << 24) | (val << 16) | (val << 8) | val;
+          } else {
+            buf[i] = 0;
+          }
+        }
+        ctx.putImageData(imgData, 0, 0);
+        requestAnimationFrame(loopGrain);
+      }
+      loopGrain();
+    }
+
+    // Keyboard Escape
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closeProjectModal();
+      }
+    });
+
+    // Initialize
+    renderProjects('All');
+    renderLogofolio();
+    renderServices();
+    renderProcess();
+    renderToolsSkills();
+    renderTimeline();
+    renderReels();
+    lucide.createIcons();
+  </script>
+</body>
+</html>
